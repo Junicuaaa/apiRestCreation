@@ -1,7 +1,7 @@
 const url = "http://localhost:9000/api/";
 const header = {"Content-Type": "application/json"};
 
-export const GET = async()=>{
+export const GETALL = async()=>{
     try {
         const res = await fetch(`${url}/users`);
         const data = await res.json()   
