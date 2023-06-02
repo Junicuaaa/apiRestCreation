@@ -1,0 +1,10 @@
+body{
+    background-color: #08336e;
+}
+h2{
+    color: #08336e;
+}
+.btn-dark{
+    background-color: #08336e !important;
+    color: #ffff !important;
+}
